@@ -1,25 +1,40 @@
-# HADES Bot Premium vO
+<div align="center">
 
-Bot-Agente hibrido de 4 capas. Telegram + Web Terminal + Turbosina ABI.
+# 🔱 hades-bot-premium
 
-## Arquitectura
-- Capa 0: Turbosina ABI — Motor C 195k tx/s HMAC-SHA256
-- Capa 1: PUJ Engine — Protocolo Universal JSON
-- Capa 2: Agente Supremo — Router + Memoria SQLite
-- Capa 3: Telegram Bot + Web Terminal WebSocket
+**Bot-Agente híbrido 4 capas: Telegram + Web Terminal + Turbosina ABI + SQLite**
 
-## Inicio rapido
-export TELEGRAM_TOKEN="tu_token"
-python3 core/bot.py
-# Web: http://localhost:8888
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Android%20%7C%20Termux-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
 
-## Acciones
-ping | get_time | abi_status | system_info | ncpc_verify
-compress | checksum | xor_cipher | echo | help
+*Lara Systemic · Ocotlan, Jalisco · 2026*
 
-## Ecosistema
-- https://github.com/jdjfkzlkdkclso-lang/HADES-CORE-vOmega
-- https://github.com/jdjfkzlkdkclso-lang/AGENTE-GRU-HADES
-- https://github.com/jdjfkzlkdkclso-lang/HADES-SUPREMO-vOmega
+</div>
 
-2026 Lara Systemic - Ocotlan, Jalisco
+---
+
+## ⚡ Overview
+
+Bot-Agente híbrido 4 capas: Telegram + Web Terminal + Turbosina ABI + SQLite
+
+## 🚀 Quick Start
+
+```bash
+export TELEGRAM_TOKEN='tu_token'\npython3 core/bot.py\n# Web: http://localhost:8888
+```
+
+## 📦 Ecosystem
+
+| Repo | Role |
+|------|------|
+| [hades-core-vomega](https://github.com/jdjfkzlkdkclso-lang/hades-core-vomega) | Motor C ABI 195k tx/s |
+| [hades-bot-premium](https://github.com/jdjfkzlkdkclso-lang/hades-bot-premium) | Bot Telegram + Web Terminal |
+| [hades-saas](https://github.com/jdjfkzlkdkclso-lang/hades-saas) | API Fastify multi-tier |
+| [hades-antifraude](https://github.com/jdjfkzlkdkclso-lang/hades-antifraude) | Detector de fraude crypto |
+| [hades-agi-supreme](https://github.com/jdjfkzlkdkclso-lang/hades-agi-supreme) | Agente AGI con habilidades |
+| [hades-autonomous](https://github.com/jdjfkzlkdkclso-lang/hades-autonomous) | Sistema autónomo supervisado |
+
+## 📄 License
+
+MIT © 2026 Lara Systemic
