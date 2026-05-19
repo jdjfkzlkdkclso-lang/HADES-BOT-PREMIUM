@@ -1,0 +1,7 @@
+*.key
+*.secret
+.env
+__pycache__/
+*.pyc
+logs/
+*.pid
